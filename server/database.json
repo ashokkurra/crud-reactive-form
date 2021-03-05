@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Admin",
+      "lastName": "User",
+      "emailId": "admin.user@gmail.com",
+      "contactNumber": "999999999",
+      "dateOfBirth": "01-01-2000"
+    },
+    {
+      "id": 2,
+      "firstName": "Ashok",
+      "lastName": "Kurra",
+      "emailId": "ashokkurra.eie@gmail.com",
+      "contactNumber": "9059898587",
+      "dateOfBirth": "10-13-1991"
+    }
+  ]
+}
