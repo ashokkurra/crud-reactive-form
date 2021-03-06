@@ -3,7 +3,16 @@ import { FormGroup, FormControl, Validators } from '@angular/forms';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { AppService } from "../app.service";
 
-export interface DialogData {
+export interface UserElement {
+  id: number,
+  firstName: string,
+  lastName: string,
+  emailId: string,
+  contactNumber: string,
+  dateOfBirth: string
+}
+
+export interface UserElement {
   mode: string;
   row: any;
 }
